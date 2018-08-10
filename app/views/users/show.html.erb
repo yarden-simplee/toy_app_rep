@@ -9,10 +9,14 @@
   <strong>Email:</strong>
   <%= @user.email %>
 </p>
+<%
+# commenting out this code which was part of an exercise
+=begin
 <p>
 	<strong>Sample micropost:</strong>
 	<%= @user.microposts.first.content %>
 </p>
+=end %>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
