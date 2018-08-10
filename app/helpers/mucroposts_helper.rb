@@ -1,0 +1,2 @@
+module MucropostsHelper
+end
